@@ -15,6 +15,7 @@ then include it into your PHP script
 
 ``` php
 <?php
+require 'Color.php';
 $style = array(
     Color::BOLD,
     Color::UNDERLINED,
