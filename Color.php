@@ -31,8 +31,6 @@ class Color {
     const HIDDEN     = '8';
 
     public static function format($string, $color, $style = array()) {
-        $result = "\033[";
-        $result .= implode(';', array_merge($style, array($color)));
-        return $result.'m'.$string."\033[0m";
+        return "\033[".implode(';', array_merge($style, array($color))).'m'.$string."\033[0m";
     }
 }
