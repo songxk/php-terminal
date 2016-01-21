@@ -20,5 +20,5 @@ $style = array(
     Color::BOLD,
     Color::UNDERLINED,
 );
-echo 'Enjoy ' . Color::format('php-terminal-color', Color::LIGHT_MAGENTA, $style),' library';'''')'')
+echo 'Enjoy ' . Color::format('php-terminal-color', Color::LIGHT_MAGENTA, $style),' library';
 ```
