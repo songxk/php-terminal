@@ -10,10 +10,6 @@ get it by
 then include it into your PHP script
 
 # Color
-`require 'Color.php'`
-
-## Example
-
 ``` php
 <?php
 require 'Color.php';
@@ -25,10 +21,6 @@ echo 'Enjoy ' . Color::format('php-terminal-color', Color::LIGHT_MAGENTA, $style
 ```
 
 # Progress
-`require 'Progress.php';`
-
-## Example
-
 ```php
 <?php
 require 'Progress.php';
