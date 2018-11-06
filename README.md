@@ -1,14 +1,15 @@
 # php-terminal-color
-You can print colorful text in terminal with this library.
+Some tools of php for terminal
 
 ## Install
 
 get it by
 
-`git clone https://github.com/songxk/php-terminal-color.git`
+`git clone https://github.com/songxk/php-terminal.git`
 
 then include it into your PHP script
 
+# Color
 `require 'Color.php'`
 
 ## Example
@@ -21,4 +22,17 @@ $style = array(
     Color::UNDERLINED,
 );
 echo 'Enjoy ' . Color::format('php-terminal-color', Color::LIGHT_MAGENTA, $style) . ' library';
+```
+
+# Progress
+`require 'Progress.php';`
+
+## Example
+
+```php
+<?php
+require 'Progress.php';
+for($percent=0;$percent<=100;$percent++) {
+    Progress::showProgressBar($percent);
+}
 ```
