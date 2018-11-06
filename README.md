@@ -9,7 +9,7 @@ get it by
 
 then include it into your PHP script
 
-# Color
+## Color
 ``` php
 <?php
 require 'Color.php';
@@ -20,7 +20,7 @@ $style = array(
 echo 'Enjoy ' . Color::format('php-terminal-color', Color::LIGHT_MAGENTA, $style) . ' library';
 ```
 
-# Progress
+## Progress
 ```php
 <?php
 require 'Progress.php';
