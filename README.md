@@ -1,4 +1,4 @@
-# php-terminal-color
+# php-terminal
 Some tools of php for terminal
 
 ## Install
